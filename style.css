@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: 'montserrat';
+}
+
+
+html body {
+    width: 100%;
+}
+.nav img {
+    height: 100px;
+    width: 200px;
+    border-radius: 9px;
+}
+.nav {
+    height: 145px;
+    width: 81%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 134px;
+    gap: 50px;
+    color: white;
+    position: fixed;
+    z-index: 99;
+}
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+
+.main {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.345);
+}
+.main .page1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page1 h1 {
+    font-size: 145px;
+    font-weight: 900;
+    color: yellow;
+}
+.page1 h3 {
+    font-size: 33px;
+    font-weight: 900;
+}
+.page1 p{
+    margin-top: 10px;
+}
+.page2 {
+    min-height: 100vh;
+    width: 100%;
+}
+.page2 marquee {
+    position: relative;
+    top: 300px;
+    font-size: 145px;
+    font-weight: 900;
+    color: green;
+    cursor: default;
+}
+.about-us {
+    display: flex;
+    justify-content: space-around;
+}
+.about-us img {
+    border-radius: 12px;
+}
+.about-us .detail h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.detail {
+    text-align: center;
+    height: 300px;
+    width: 600px;
+}
+.container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 69px;
+    justify-content: center;
+    align-items: center;
+}
+.container .box {
+    height: 76%;
+    width: 350px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: all ease-in 0.3s;
+
+}
+#box1 {
+    background-image: url('https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?s=1024x1024&w=is&k=20&c=7vTdlKUTmfYvaSlw4r1IdAb3AvXbZlE_L-hqpUVbXYA=');
+}
+#box2 {
+    background-image: url('https://media.istockphoto.com/id/1314559532/photo/relaxed-woman-breathing-fresh-air-in-a-green-forest.jpg?s=1024x1024&w=is&k=20&c=VZy7cZoQkujIIUwRrnwHmU9-tYaSZujuyuKzDeOjmpc=');
+}
+#box3 {
+    background-image: url('https://media.istockphoto.com/id/935746242/photo/mata-atlantica-atlantic-forest-in-brazil.jpg?s=1024x1024&w=is&k=20&c=ulailuEo5KUCoZdHvG2Pyi5tv34XlVUleT3uxhFIZG0=');
+}
+.overflow {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    border-radius: 12px;
+    opacity: 0;
+    transition: all ease-in 0.3s;
+}
+.overflow h3 {
+    font-size: 34px;
+    font-weight: 800;
+    padding-top: 39px;
+}
+
+.box:hover .overflow{
+    opacity: 1;
+    cursor : default;
+}
+.overflow:hover{
+    transform: rotate3d(-1,1,0,20deg);
+}
+.bottom {
+    background: linear-gradient(red,blue);
+    height: 200px;
+    width: 100%;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 13px;
+}
+.page3 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.page3>h4{
+    font-size: 24px;
+    font-weight: 700;
+    width: 60%;
+    line-height: 40px;
+}
+.footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    background: linear-gradient(red ,blue);
+    padding-left: 23px;
+    padding-top: 23px;
+    gap: 76px;
+}
+.footer-image img {
+border-radius: 9px;
+    height: 100px;
+    width: 200px;
+}
+.f1 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.f2 {
+    display: flex;
+    flex-direction: column;
+    gap:23px;
+}
+.f3 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.footer h3 {
+    color: black;
+}
